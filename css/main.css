@@ -1,14 +1,12 @@
 body {
+  color: #222;
   font-size: 18px;
-  line-height: 1.5em;
+  line-height: 1.6em;
+  font-family: 'Lato', sans-serif;
 }
 a {
   color: inherit;
   text-decoration: none;
-}
-h1,
-h2 {
-  line-height: 1.5em;
 }
 h1 {
   font-size: 1.45em;
@@ -37,7 +35,7 @@ ul {
 }
 #header nav ul li {
   display: inline;
-  margin-right: 0.5em;
+  margin-right: 1em;
 }
 #content section article {
   margin: 1em 0;
@@ -47,4 +45,10 @@ ul {
 }
 #content section article header .when {
   margin: 0;
+}
+#header h1,
+#header nav,
+.when {
+  font-size: 0.85em;
+  text-transform: uppercase;
 }
