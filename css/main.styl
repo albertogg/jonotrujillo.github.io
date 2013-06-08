@@ -1,4 +1,6 @@
 textColor = #333
+mainColor = #16a085
+altColor = #1abc9c
 
 body
 	color textColor
@@ -24,19 +26,18 @@ ol, p, ul
 	margin 1em 0
 
 #header
-	background-color #000
+	background-color mainColor
 	padding 2em 1em
 
 	h1, nav
-		color #fff
 		font-size .85em
 		text-transform uppercase
 
 	h1
-		opacity .85
+		color rgba(255, 255, 255, .85)
 
 	nav
-		opacity .7
+		color rgba(255, 255, 255, .7)
 
 		ul
 			margin 0
@@ -45,6 +46,11 @@ ol, p, ul
 			li
 				display inline
 				margin-right 1em
+
+	a
+
+		&:hover, &:active
+			color rgba(255, 255, 255, 1)
 
 #content
 	margin 2em 1em
@@ -58,8 +64,24 @@ ol, p, ul
 			header
 				margin 1em 0
 
+				h1
+
+					a
+						color inherit
+						text-decoration none
+
+						&:hover, &:active
+							color mainColor
+
 				.when
 					color lighten(textColor, 30%)
 					font-size .7em
 					margin 0
 					text-transform uppercase
+
+	a
+		color mainColor
+		text-decoration underline
+
+		&:hover, &:active
+			color altColor
