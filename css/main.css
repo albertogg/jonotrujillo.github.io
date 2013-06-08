@@ -25,7 +25,7 @@ ul {
   margin: 1em 0;
 }
 #header {
-  background-color: #16a085;
+  background-color: #27ae60;
   padding: 2em 1em;
 }
 #header h1,
@@ -67,7 +67,7 @@ ul {
 }
 #content section article header h1 a:hover,
 #content section article header h1 a:active {
-  color: #16a085;
+  color: #27ae60;
 }
 #content section article header .when {
   color: #707070;
@@ -76,10 +76,10 @@ ul {
   text-transform: uppercase;
 }
 #content a {
-  color: #16a085;
+  color: #27ae60;
   text-decoration: underline;
 }
 #content a:hover,
 #content a:active {
-  color: #1abc9c;
+  color: #2ecc71;
 }
