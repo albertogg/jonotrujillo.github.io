@@ -3,7 +3,7 @@ layout: page
 title: ¿Quién?
 ---
 
-¡Hola! Mi nombre es Jonathan Trujillo. Soy un desarrollador web de Caracas, Venezuela. 
+Mi nombre es Jonathan Trujillo. Soy un desarrollador web de Caracas, Venezuela. 
 
 Me encanta hacer sitios web. Hice el primero cuando tenía 15 años, y desde entonces he seguido con curiosidad las infinitas posibilidades del Internet.
 
