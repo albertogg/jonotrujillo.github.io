@@ -57,10 +57,10 @@ h2{font-size:1.15em;margin:2em 0 1em}
 ol,p,ul{margin:1em 0}
 .content{margin:2em auto;max-width:33em}
 #header,#content{padding:0 1em}
-#header{background:#27ae60;overflow:auto;}
+#header{background:#303030;overflow:auto;}
 #header h1,#header nav{font-size:.85em;text-transform:uppercase}
-#header h1{color:rgba(255,255,255,0.85);letter-spacing:.15em;word-spacing:.3em}
-#header nav{color:rgba(255,255,255,0.7);}
+#header h1{color:rgba(255,255,255,0.7);letter-spacing:.15em;word-spacing:.3em}
+#header nav{color:rgba(255,255,255,0.55);}
 #header nav ul{margin:0;padding:0;}
 #header nav ul li{display:inline;margin-right:.9em;}
 #header nav ul li:last-child{margin-right:0}
@@ -68,12 +68,12 @@ ol,p,ul{margin:1em 0}
 #content section article{margin:1em 0;}
 #content section article header{margin:1em 0;}
 #content section article header h1 a{color:inherit;text-decoration:none;}
-#content section article header h1 a:hover,#content section article header h1 a:active{color:#27ae60}
+#content section article header h1 a:hover,#content section article header h1 a:active{color:#2980b9}
 #content section article header .when{color:#888;font-size:.7em;margin:0;text-transform:uppercase}
 #content section article footer{background-color:#f0f0f0;color:#6e6e6e;margin:2em 0;padding:1em;}
 #content section article footer p{font-size:.85em;margin:0}
-#content a{color:#2ecc71;text-decoration:underline;}
-#content a:hover,#content a:active{color:#27ae60}
+#content a{color:#3498db;text-decoration:underline;}
+#content a:hover,#content a:active{color:#2980b9}
 #content strong{color:#484848}
 @media screen and (min-width:500px){body{font-size:1.15em}
 #header,#content{padding:0 2em}
