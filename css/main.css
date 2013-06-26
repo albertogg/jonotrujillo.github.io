@@ -73,7 +73,6 @@ strong{color:#363636}
 #content section article header .when{color:#797979;font-size:.7em;margin:0;text-transform:uppercase}
 #content section article footer{background-color:#eee;color:#5d5d5d;margin:2em 0;overflow:auto;padding:0 1em;}
 #content section article footer p{font-size:.85em}
-#content section.post article header,#content section.page article header{margin:2em 0}
 #content a{color:#3498db;text-decoration:underline;}
 #content a:hover,#content a:active{color:#2980b9}
 @media screen and (min-width:500px){body{font-size:1.15em}
