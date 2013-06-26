@@ -70,10 +70,15 @@ strong
 
 			li
 				display inline
-				margin-right .9em
 
-				&:last-child
-					margin-right 0
+				&:after
+					color rgba(255, 255, 255, .25)
+					content '/'
+					margin 0 .45em
+
+				&:last-child:after
+					content none
+					margin 0
 
 	a
 
