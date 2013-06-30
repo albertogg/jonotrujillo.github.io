@@ -10,6 +10,6 @@ However, to start a local Jekyll server, do:
 
 I use [Stylus](http://learnboost.github.io/stylus/) and [Nib](http://visionmedia.github.io/nib/) to process my style sheets, like this:
 
-	stylus css/main.styl -w -c -u '/usr/local/share/npm/lib/node_modules/nib/'
+	stylus css/styles.styl -w -c -u '/usr/local/share/npm/lib/node_modules/nib/'
 	
 Just make sure to update Nib route accordingly.

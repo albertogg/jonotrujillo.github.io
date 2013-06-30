@@ -1,18 +1,11 @@
-// import nib
-@import 'nib'
-
-
-// import normalize
-@import 'normalize.styl'
-
-
-// set color swatches
+// colors
 textColor = #404040
 lightColor = #3498db
 darkColor = #2980b9
+headerColor = #202020
+footerColor = #ddd
 
-
-// main styles
+// styles
 body
 	color textColor
 	font-family 'Lato', sans-serif
@@ -49,7 +42,7 @@ strong
 	padding 0 1em
 
 #header
-	background #202020
+	background headerColor
 	overflow auto
 
 	h1, nav
@@ -74,7 +67,7 @@ strong
 				&:after
 					color rgba(255, 255, 255, .25)
 					content '/'
-					margin 0 .45em
+					margin 0 .3em
 
 				&:last-child:after
 					content none
@@ -107,7 +100,7 @@ strong
 					text-transform uppercase
 
 			footer
-				background-color #eee
+				background-color footerColor
 				color lighten(textColor, 15%)
 				margin 2em 0
 				overflow auto
@@ -121,7 +114,3 @@ strong
 
 		&:hover, &:active
 			color darkColor
-
-
-// import responsive style sheet
-@import 'responsive.styl'
