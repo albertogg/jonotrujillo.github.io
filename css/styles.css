@@ -59,8 +59,8 @@ strong{color:#363636}
 .content{margin:2em auto;max-width:33em}
 #header,#content{padding-right:1em;padding-left:1em}
 #header{background:#202020;overflow:auto;}
-#header h1,#header nav{font-size:1em;line-height:1.6em;text-transform:uppercase}
-#header h1{color:rgba(255,255,255,0.7);letter-spacing:.15em;word-spacing:.3em}
+#header h1,#header nav{text-transform:uppercase}
+#header h1{color:rgba(255,255,255,0.7);font-size:1em;line-height:1.6em;letter-spacing:.15em;word-spacing:.3em}
 #header nav{color:rgba(255,255,255,0.55);}
 #header nav ul{margin-top:0;margin-bottom:0;padding-left:0;}
 #header nav ul li{display:inline;}
