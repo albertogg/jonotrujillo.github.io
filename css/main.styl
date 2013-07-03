@@ -3,14 +3,13 @@ textColor = #404040
 lightColor = #3498db
 darkColor = #2980b9
 headerColor = #202020
-footerColor = #ddd
 
 // styles
 body
 	color textColor
 	font-family 'Lato', sans-serif
 	font-size 16px
-	line-height 1.6em
+	line-height 1.5em
 
 a
 	color inherit
@@ -18,18 +17,23 @@ a
 	transition color .075s ease-in
 
 h1, h2
-	color darken(textColor, 15%)
+	color darken(textColor, 30%)
 
 h1
-	font-size 1.45em
-	margin 0
+	font-size 2.369em
+	line-height 1em
+	margin-top 0
+	margin-bottom 0
 
 h2
-	font-size 1.15em
-	margin 2em 0 1em
+	font-size 1.3em
+	line-height 1em
+	margin-top 2em
+	margin-bottom 1em
 
 ol, p, ul
-	margin 1em 0
+	margin-top 1em
+	margin-bottom 1em 
 
 strong
 	color darken(textColor, 15%)
@@ -39,54 +43,58 @@ strong
 	max-width 33em
 
 #header, #content
-	padding 0 1em
+	padding-right 1em
+	padding-left 1em
 
 #header
 	background headerColor
 	overflow auto
 
 	h1, nav
-		font-size .85em
 		text-transform uppercase
 
 	h1
-		color rgba(255, 255, 255, .7)
+		color rgba(#fff, .7)
+		font-size 1em
 		letter-spacing .15em
 		word-spacing .3em
 
 	nav
-		color rgba(255, 255, 255, .55)
+		color rgba(#fff, .55)
 
 		ul
-			margin 0
-			padding 0
+			margin-top 0
+			margin-bottom 0
+			padding-left 0
 
 			li
 				display inline
 
 				&:after
-					color rgba(255, 255, 255, .25)
+					color rgba(#fff, .3)
 					content '/'
-					margin 0 .3em
+					margin-right .3em
+					margin-left .3em
 
 				&:last-child:after
 					content none
-					margin 0
 
 	a
 
 		&:hover, &:active
-			color rgba(255, 255, 255, 1)
+			color rgba(#fff, 1)
 
 #content
 
 	section
 
 		article
-			margin 1em 0
+			margin-top 2em
+			margin-bottom 2em
 
 			header
-				margin 1em 0
+				margin-top 2em
+				margin-bottom 2em
 
 				h1
 
@@ -95,19 +103,15 @@ strong
 
 				.when
 					color lighten(textColor, 30%)
-					font-size .7em
-					margin 0
+					margin-top 0
+					margin-bottom 0
 					text-transform uppercase
 
 			footer
-				background-color footerColor
+				border-top .15em solid darken(#fff, 15%)
 				color lighten(textColor, 15%)
-				margin 2em 0
-				overflow auto
-				padding 0 1em
-
-				p
-					font-size .85em
+				margin-top 4em
+				margin-bottom 2em
 
 	a
 		color lightColor
