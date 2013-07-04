@@ -1,42 +1,20 @@
 // colors
+headerBackColor = #202020
+headerTextColor = #fff
 textColor = #404040
 lightColor = #3498db
 darkColor = #2980b9
-headerColor = #202020
 
 // styles
 body
 	color textColor
 	font-family 'Lato', sans-serif
-	font-size 16px
+	font-size 15px
 	line-height 1.6em
 
 a
-	color inherit
 	text-decoration none
-	transition color .075s ease-in
-
-h1, h2
-	color darken(textColor, 30%)
-
-h1
-	font-size 1.953em
-	line-height 1em
-	margin-top 0
-	margin-bottom 0
-
-h2
-	font-size 1.25em
-	line-height 1em
-	margin-top 2em
-	margin-bottom 1em
-
-ol, p, ul
-	margin-top 1em
-	margin-bottom 1em 
-
-strong
-	color darken(textColor, 15%)
+	transition color 0.05s ease-in
 
 .content
 	margin 2em auto
@@ -47,21 +25,22 @@ strong
 	padding-left 1em
 
 #header
-	background headerColor
+	background headerBackColor
 	overflow auto
 
 	h1, nav
 		text-transform uppercase
 
 	h1
-		color rgba(#fff, .7)
-		font-size 1em
-		line-height 1.6em
-		letter-spacing .15em
-		word-spacing .3em
+		color rgba(headerTextColor, .75)
+		font-size 1.2em
+		font-weight normal
+		margin-top 0
+		margin-bottom 0
 
 	nav
-		color rgba(#fff, .55)
+		color rgba(headerTextColor, .5)
+		font-size 0.833em
 
 		ul
 			margin-top 0
@@ -72,21 +51,22 @@ strong
 				display inline
 
 				&:after
-					color rgba(#fff, .3)
+					color rgba(#fff, .25)
 					content '/'
-					margin-right .3em
-					margin-left .3em
+					margin-right .25em
+					margin-left .25em
 
 				&:last-child:after
 					content none
 
 	a
+		color inherit
 
 		&:hover, &:active
-			color rgba(#fff, 1)
+			color rgba(headerTextColor, 1)
 
 #content
-
+	
 	section
 
 		article
@@ -97,21 +77,15 @@ strong
 				margin-top 2em
 				margin-bottom 2em
 
-				h1
-
-					a
-						color inherit
-
 				.when
-					color lighten(textColor, 30%)
-					font-size .8em
+					color lighten(textColor, 25%)
+					font-size 0.833em
 					margin-top 0
 					margin-bottom 0
-					text-transform uppercase
 
 			footer
-				border-top .15em solid darken(#fff, 15%)
-				color lighten(textColor, 15%)
+				border-top .25em solid #eee
+				color lighten(textColor, 25%)
 				margin-top 4em
 				margin-bottom 2em
 
@@ -120,3 +94,28 @@ strong
 
 		&:hover, &:active
 			color darkColor
+
+	h1, h2
+		color darken(textColor, 25%)
+
+		a
+			color inherit
+
+	h1
+		font-size 2.074em
+		line-height 1em
+		margin-top 0
+		margin-bottom 0
+
+	h2
+		font-size 1.44em
+		line-height 1em
+		margin-top 2em
+		margin-bottom 1em
+
+	ol, p, ul
+		margin-top 1em
+		margin-bottom 1em
+
+	strong
+		color darken(textColor, 25%)
