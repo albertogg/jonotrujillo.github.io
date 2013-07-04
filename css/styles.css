@@ -49,7 +49,7 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
-body{color:#404040;font-family:'Lato',sans-serif;font-size:15px;line-height:1.6em}
+body{color:#404040;font-family:'Lato',sans-serif;font-size:16px;line-height:1.6em}
 a{text-decoration:none;-webkit-transition:color .05s ease-in;-moz-transition:color .05s ease-in;-o-transition:color .05s ease-in;-ms-transition:color .05s ease-in;transition:color .05s ease-in}
 .content{margin:2em auto;max-width:33em}
 #header,#content{padding-right:1em;padding-left:1em}
@@ -77,6 +77,6 @@ a{text-decoration:none;-webkit-transition:color .05s ease-in;-moz-transition:col
 #content strong{color:#303030}
 @media screen and (min-width:768px){body{font-size:17px}
 #header,#content{padding:0 2em}
-}@media screen and (min-width:1024px){body{font-size:19px}
+}@media screen and (min-width:1024px){body{font-size:18px}
 #header,#content{padding:0 4em}
 }
