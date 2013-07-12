@@ -5,16 +5,20 @@ textColor = #404040
 lightColor = #3498db
 darkColor = #2980b9
 
+
 // styles
 body
 	color textColor
-	font-family 'Lato', sans-serif
-	font-size 16px
+	font-family 'Georgia', serif
+	font-size 18px
 	line-height 1.6em
 
 a
 	text-decoration none
-	transition color 0.05s ease-in
+	transition color 0.125s ease-in
+
+h1, h2
+	font-family 'Lato', sans-serif
 
 .content
 	margin 2em auto
@@ -27,20 +31,22 @@ a
 #header
 	background headerBackColor
 	overflow auto
+	text-align center
 
 	h1, nav
 		text-transform uppercase
 
 	h1
 		color rgba(headerTextColor, .75)
-		font-size 1.2em
+		font-size 1.5em
 		font-weight normal
 		margin-top 0
 		margin-bottom 0
 
 	nav
 		color rgba(headerTextColor, .5)
-		font-size 0.833em
+		font-size 0.667em
+		font-family 'Lato', sans-serif
 
 		ul
 			margin-top 0
@@ -66,7 +72,7 @@ a
 			color rgba(headerTextColor, 1)
 
 #content
-	
+
 	section
 
 		article
@@ -75,11 +81,14 @@ a
 
 			header
 				margin-top 2em
-				margin-bottom 2em
+				margin-bottom 1em
 
 				.when
 					color lighten(textColor, 25%)
-					font-size 0.833em
+					font-family 'Lato', sans-serif
+					font-size 0.667em
+					font-weight bold
+					letter-spacing .25em
 					margin-top 0
 					margin-bottom 0
 
@@ -102,13 +111,13 @@ a
 			color inherit
 
 	h1
-		font-size 2.074em
+		font-size 2.25em
 		line-height 1em
 		margin-top 0
 		margin-bottom 0
 
 	h2
-		font-size 1.44em
+		font-size 1.5em
 		line-height 1em
 		margin-top 2em
 		margin-bottom 1em
