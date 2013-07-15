@@ -68,6 +68,7 @@ h1,h2{font-family:'Lato',sans-serif}
 #content section article header{margin-top:2em;margin-bottom:1em;}
 #content section article header .when{color:#707070;font-family:'Lato',sans-serif;font-size:.667em;font-weight:bold;letter-spacing:.25em;margin-top:0;margin-bottom:0}
 #content section article footer{border-top:.25em solid #eee;color:#707070;margin-top:4em;margin-bottom:2em}
+#content section.page article{margin-top:3.5em}
 #content a{color:#3498db;}
 #content a:hover,#content a:active{color:#2980b9}
 #content h1,#content h2{color:#303030;}
@@ -75,6 +76,7 @@ h1,h2{font-family:'Lato',sans-serif}
 #content h1{font-size:2.25em;line-height:1em;margin-top:0;margin-bottom:0}
 #content h2{font-size:1.5em;line-height:1em;margin-top:2em;margin-bottom:1em}
 #content ol,#content p,#content ul{margin-top:1em;margin-bottom:1em}
+#content ol + p,#content p + p,#content ul + p{text-indent:2em}
 #content strong{color:#303030}
 @media screen and (min-width:768px){body{font-size:19px}
 #header,#content{padding:0 2em}
